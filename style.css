@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	position: absolute;
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(to right bottom, #C0C0C0, #C1BBBB, #C0C0C0);
+}
+
+#canvas {
+	height: 75vmin;
+	width: 80vmin;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#monitor {
+	height: 35vmin;
+	width: 50vmin;
+	left: 15vmin;
+	top: 10vmin;
+	border-radius: 1vmin;
+	background-color: #141414;
+}
+
+#screen {
+	height: 32vmin;
+	width: 47vmin;
+	left: 1.5vmin;
+	top: 1.5vmin;
+	background: linear-gradient(to left bottom, #333, #222);
+}
+
+#stand {
+	width: 15vmin;
+	height: 1vmin;
+	left: 32.5vmin;
+	top: 50vmin;
+	border-radius: 0.5vmin;
+	background-color: #111;
+}
+
+#stand1 {
+	width: 6vmin;
+	height: 7vmin;
+	left: 37vmin;
+	top: 43vmin;
+	background-color: #171717;
+}
